@@ -34,7 +34,7 @@ int main()
     qsortRecursive(array1000, 1000, allsr1000);
     qsortRecursive(array10000, 10000, allsr10000);
 
-    cout << allsr100 << " " << allsr1000 << " " << allsr10000 << endl;
+    cout << "iteraions100 = " << allsr100 << "\niteratiosns1000 = " << allsr1000 << "\niterations10000 = " << allsr10000 << endl;
 
     toFilesPost(out100, out1000, out10000, array100, array1000, array10000);
 
